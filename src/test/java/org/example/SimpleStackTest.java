@@ -32,7 +32,7 @@ class SimpleStackTest {
         // When the item is pushed in the stack
         stack.push(item);
 
-        // Then…
+        // Then...
         assertFalse(stack.isEmpty(), "The stack must not be empty");
         assertEquals(1, stack.getSize(),"The stack must constain 1 item");
         assertSame( item, stack.peek(),"The pushed item must be is on top of the stack");
